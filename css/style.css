@@ -1,0 +1,111 @@
+/*網站背景顏色*/
+
+
+/*鏈接取消Underline*/
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+/*鼠標設定*/
+a:hover{
+    cursor: url(Images/Cursor/attack.cur),auto!important;
+    color:tomato;
+    text-decoration: none;
+}
+
+/*字體顏色*/
+p{
+    color:blanchedalmond;
+    padding: 2px;
+    margin: 0px 30px 0px 10px;
+}
+
+.Nav_bar{
+    background: url(Images/nav.png);background-size: cover;
+    min-height: 54px;
+    color:blanchedalmond;
+}
+
+/*中間Logo圖*/
+.logoDiv{
+    min-width: 100%;
+    min-height: 450px;
+}
+
+/*遊戲介紹..(LeftNav)*/
+.DescriptionDiv{
+    min-width: 100%;
+    min-height: 280px;
+}
+
+/*遊戲簡介*/
+.LeftNav{
+    background:url(Images/leftnav_bg.png);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 13px;
+}
+
+/*維修公告(RightNav)*/
+.RightNav{
+    background:url(Images/right_nav_bg.png);
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+    margin-left: -17px;
+    text-align: left;
+    font-size: 13px;
+}
+
+/*調整手機View界面*/
+@media only screen and (max-width: 600px) {
+    .RightNav{
+        background:url(Images/right_nav_bg.png);
+        background-repeat: no-repeat;
+        min-height: 100%;
+        min-width: 100%;
+        margin-left: 35px;
+        text-align: left;
+        font-size: 13px;
+    }
+}
+
+/*賬號和密碼寬設計*/
+#InputBox{
+    margin-bottom: 5px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 272px;
+}
+
+/*宣傳圖-第三列*/
+.PromoteSection{
+    background:url(Images/middle_left_bg.png);
+    background-repeat: no-repeat;
+    min-height: 450px;
+    min-width: 100%;
+    font-size: 13px;
+}
+
+/*最新消息*/
+h1{
+    color:blanchedalmond;
+    font-size: 25px;
+    border-left:5px solid blanchedalmond;
+    font-weight: bold;
+}
+.news a:hover{
+    background: #F1161B;
+}
+button{
+  padding: 0;
+  border: 0 none;
+}
